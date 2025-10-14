@@ -1,0 +1,92 @@
+.hero-content {
+  background: #ffffff;
+  height: 400.1px;
+  z-index: -1;
+  position: relative;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero-content {
+    z-index: -1000;
+    background: transparent;
+  }
+}
+
+.video {
+  /*z-index: 30000;*/
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 21px;
+  margin-bottom: 29px;
+}
+
+@media (min-width: 300px) {
+  section {
+  }
+}
+
+@media (min-width: 768px) {
+  .videoo {
+    position: relative;
+    display: flex;
+    z-index: 10000;
+  }
+}
+
+@media (max-width: 576px) {
+  .textty {
+    position: relative;
+    flex: none;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.navbar-brand:hover {
+  color: #001a40;
+}
+
+.texty:hover {
+  color: #001a40;
+}
+
+.sheading:hover {
+  color: var(--bs-emphasis-color);
+}
+
+.sheading {
+  color: #001a40;
+  /*color: var(--bs-primary-text-emphasis);*/
+}
+
+.row {
+}
+
+.fas.fa-shopping-cart:hover {
+  color: var(--bs-green);
+  /*color: var(--bs-danger-text-emphasis);*/
+}
+
+.text-secondary-emphaw {
+  background-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+.z-index1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: var(--bs-card-img-overlay-padding);
+  border-radius: var(--bs-card-inner-border-radius);
+}
+
